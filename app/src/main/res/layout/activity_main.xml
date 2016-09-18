@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.uworks.focusjump.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="焦点跳转" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="列表一" />
+    <com.example.uworks.focusjump.MyListView
+        android:id="@+id/listveiw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.example.uworks.focusjump.MyListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="列表二" />
+    <com.example.uworks.focusjump.MyListView
+        android:id="@+id/listveiw2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </com.example.uworks.focusjump.MyListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="列表三" />
+    <com.example.uworks.focusjump.MyListView
+        android:id="@+id/listveiw3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.example.uworks.focusjump.MyListView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
